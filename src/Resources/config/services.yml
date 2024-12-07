@@ -8,7 +8,7 @@ services:
         public: true
         arguments:
             - "@router"
-            - "%kernel.root_dir%/../"
+            - "%kernel.project_dir%/../"
             - "@sitemap.providers"
     sitemap.providers:
         class: JeroenDesloovere\SitemapBundle\Provider\SitemapProviders
